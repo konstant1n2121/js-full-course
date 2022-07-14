@@ -1,7 +1,6 @@
 const setTitle = text => {
-  const elem = document.querySelector('.title');
-  elem.textContent = text;
+  const element = document.querySelector('.title');
+  element.textContent = text;
 };
-const result = setTitle('Web Developer');
 
-console.dir(result);
+setTitle('Web Developer');
