@@ -23,7 +23,7 @@ export const getPlans = () => {
 // =============
 
 export const getGoal = () => {
-  const element = document.querySelector('.plans');
+  const element = document.querySelector('.goal');
   const html = element.outerHTML;
   return html;
 };
