@@ -6,4 +6,4 @@ const getSection = num => {
   return element.closest('.box').dataset.section;
 };
 
-console.log(getSection(1));
+// console.log(getSection(3));
