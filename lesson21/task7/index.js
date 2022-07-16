@@ -1,9 +1,9 @@
 // input: element
 // output: empty string
 
-const clearList = () => {
+export const clearList = () => {
   const element = document.querySelector('.categories');
   element.innerHTML = '';
 };
 
-clearList();
+// clearList();
