@@ -1,9 +1,14 @@
-// input: element
-// output: empty string
+// input: string
+// output: new element
 
-export const clearList = () => {
-  const element = document.querySelector('.categories');
-  element.innerHTML = '';
+// === solving plan
+// 1. create new element with 'document.createElement'
+// 2. add text to new element using textContent
+
+export const createButton = buttonText => {
+  const button = document.createElement('button');
+  document.body.append(button);
+  button.textContent = buttonText;
 };
 
-// clearList();
+// createButton('Send Mail');
