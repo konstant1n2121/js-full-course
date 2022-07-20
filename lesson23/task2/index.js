@@ -1,6 +1,12 @@
 // ==== solving plan
 // 1. create a function for markup
-// 2. add this function to element 'arena'
+// 2. create a number generator function
+// 3. function for render arena
+// 3.1 function for section
+// 3.2 function for line seats
+// 4. get exactly place for every seat
+// 4.1 add event for board-seat
+
 
 const generateNumbersRange = (from, to) => {
   const result = [];
